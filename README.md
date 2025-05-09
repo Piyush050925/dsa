@@ -175,3 +175,16 @@ Day 28: Completed all major patterns with practice
 Day 49: Graphs + DP skills solid
 
 Day 63: Final revision + mock ready
+
+
+# (Optional) – Stacks & Queues Explicit Practice
+
+LC 20 (Valid Parentheses)
+
+LC 155 (Min Stack)
+
+LC 232 (Implement Queue using Stacks)
+
+LC 394 (Decode String)
+
+LC 739 (Daily Temperatures)

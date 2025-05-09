@@ -1,1 +1,22 @@
 # Intro to Sliding Window
+
+1. Constant Window
+
+arr = [-1, 2, 3, 3, 4, 5, -1], k = 4
+        l        r
+
+l = -1, r = 3
+sum = -1+2+3+3 = 7
+
+sum = sum - arr[l]
+l++
+l = 2, r = 4
+
+and goes on
+
+
+
+2. Longest Subarray/substring where xyz < k
+
+Longest Subarray with sum <= k
+arr = [2, 5, 1, 7, 10], k = 14
