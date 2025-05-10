@@ -2,21 +2,33 @@
 
 1. Constant Window
 
-arr = [-1, 2, 3, 3, 4, 5, -1], k = 4
-        l        r
+        arr = [-1, 2, 3, 3, 4, 5, -1], k = 4
+                l        r
 
-l = -1, r = 3
-sum = -1+2+3+3 = 7
+        l = -1, r = 3
+        sum = -1+2+3+3 = 7
 
-sum = sum - arr[l]
-l++
-l = 2, r = 4
+        sum = sum - arr[l]
+        l++
+        l = 2, r = 4
 
-and goes on
+        sum = sum + arr[r] = 6+4 = 10
+
+        and goes on
 
 
 
 2. Longest Subarray/substring where xyz < k
 
-Longest Subarray with sum <= k
-arr = [2, 5, 1, 7, 10], k = 14
+        Longest Subarray with sum <= k
+        arr = [2, 5, 1, 7, 10], k = 14
+
+        1. Go for Brute Force
+                Generate all subarrays and check condition
+
+        2. Then find Better Solution
+        3. Optimize it.
+
+3. No. of Subarrays where (condition)
+
+4. Shortest/minimum window (condition)
