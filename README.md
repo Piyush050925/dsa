@@ -8,7 +8,7 @@ Topics/Patterns: Sliding Window | Two Pointers
 | Day | Focus | Problems (LeetCode) |
 |-----|-------|---------------------|
 | 1 | Intro to Sliding Window | 121. Best Time to Buy and Sell Stock, 209. Min Size Subarray Sum, 1423. Maximum Points You Can Obtain from Cards |
-| 2 | Fixed-size window | 239. Sliding Window Maximum, 643. Max Average Subarray I |
+| 2 | Fixed-size window | 239. Sliding Window Maximum, 643. Max Average Subarray I, 1004. Max Consecutive Ones III |
 | 3 | Variable-size window | 3. Longest Substring Without Repeating, 76. Minimum Window Substring |
 | 4 | Two Pointers - Sorted Arrays | 167. Two Sum II, 88. Merge Sorted Array |
 | 5 | Two Pointers - Strings | 125. Valid Palindrome, 680. Valid Palindrome II |
