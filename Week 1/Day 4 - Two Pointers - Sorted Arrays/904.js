@@ -58,3 +58,6 @@ const fruitBasket1 = function (arr, k) {
 
 console.log('---- Solution 2 ----');
 console.log(fruitBasket1([3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4], 2));
+
+// TC O(n)
+// SC O(1)
