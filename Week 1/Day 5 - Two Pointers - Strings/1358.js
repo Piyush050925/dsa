@@ -6,7 +6,7 @@
  * @return {number}
  */
 var numberOfSubstrings = function(s) {
-        let count = 0;
+    let count = 0;
     let left = 0;
     let charCount = { 'a': 0, 'b': 0, 'c': 0 };
 
