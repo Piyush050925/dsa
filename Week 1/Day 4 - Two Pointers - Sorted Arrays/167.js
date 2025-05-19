@@ -12,7 +12,7 @@ var twoSum = function(numbers, target) {
         let currSum = numbers[l] + numbers[r];
 
         if (currSum === target) {
-            return [l + 1, r + 1]; // 1-based indexing
+            return [l + 1, r + 1];
         } else if (currSum < target) {
             l++;
         } else {
@@ -23,7 +23,7 @@ var twoSum = function(numbers, target) {
     return []; // if no solution found
 };
 
-return FontFaceSetLoadEvent;
+console.log(twoSum([[2,7,11,15]], 9));
 
-console.log(twoSum([0, 1], 9));
-
+// TC O(n)
+// SC O(1)
