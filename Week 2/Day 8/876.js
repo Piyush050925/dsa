@@ -1,6 +1,8 @@
 // 876. Middle of the Linked List
 // https://leetcode.com/problems/middle-of-the-linked-list
 
+const { createLinkedList, ListNode } = require('../createLL.js');
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -22,7 +24,8 @@ var middleNode = function(head) {
     return slow;
 };
 
-console.log(middleNode([1,2,3,4,5]));
+const head = createLinkedList([1, 2, 3, 4, 5], -1);
+console.log(middleNode(head));
 
 // TC = O(n)
 // SC = O(1)

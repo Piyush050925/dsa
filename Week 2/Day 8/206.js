@@ -1,6 +1,8 @@
 // 206. Reverse Linked List
 // https://leetcode.com/problems/reverse-linked-list/
 
+const { createLinkedList, ListNode } = require('../createLL.js');
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -26,7 +28,8 @@ var reverseList = function (head) {
     return prev;
 };
 
-console.log(reverseList([1,2,3,4,5]));
+const head = createLinkedList([1,2,3,4,5], -1);
+console.log(reverseList(head));
 
 // TC = O(n)
 // SC = O(1)
