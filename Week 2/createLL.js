@@ -33,7 +33,16 @@ function createLinkedList(arr, pos) {
     return head;
 }
 
+// head of list
+function printLinkedList(head) {
+    while(head) {
+        console.log(head.val);
+        head = head.next;
+    }
+}
+
 module.exports = {
     createLinkedList,
-    ListNode
+    ListNode,
+    printLinkedList,
 };
