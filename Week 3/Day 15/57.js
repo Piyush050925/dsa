@@ -27,3 +27,8 @@ var insert = function(intervals, newInterval) {
 
     return res;
 };
+
+console.log(insert([[1, 3], [6, 10], [11, 16]], [2, 5]));
+
+// TC = O(n)
+// SC = O(n+1) ~ O(n)
