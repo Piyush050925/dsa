@@ -1,3 +1,6 @@
+// 452. Min Arrows to Burst Balloons
+// https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
+
 /**
  * @param {number[][]} points
  * @return {number}
@@ -18,3 +21,6 @@ var findMinArrowShots = function(points) {
 
     return arrows;
 };
+
+// TC = O(n log n)
+// SC = O(1)
