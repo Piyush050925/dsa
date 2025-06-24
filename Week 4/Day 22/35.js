@@ -26,3 +26,6 @@ var searchInsert = function (nums, target) {
 };
 
 console.log(searchInsert([1, 3, 5 , 6], 5));
+
+// TC = O(log n)
+// SC = O(1)
